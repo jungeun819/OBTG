@@ -1,84 +1,51 @@
-# Semi-Project revision_세미프로젝트 수정본</br></br>
+#  OBTG_old.ver
+> 배포 : http://193.122.119.58:8080/OBTG/index.jsp
+> 
+> 기획 : 2022.12.28. ~ 2023.01.17.
+> 
+> 개발 : 2023.01.17. ~ 2023.02.02.
 
-<h3>■ 프로젝트명 : OBTG_JJ </h3>
-<h3>■ 프로젝트 기간: 2022.02.20 ~ 03.20 </h3>
-<h5>※ 기존 4명으로 진행했던 세미 프로젝트를 바탕으로, 이후 전체적인 사이트 디자인과 일부 기능을 수정한 수정본입니다. (인원 2명)</h5>
-<hr>
-<h3> ■ Contents  </h3>
- 
- 
-1.개요
 
-2.사용기술 및 개발환경
-
-3.주요기능
-
-4.설계
-
+### 📝 프로젝트 소개
+> 리팩토링 및 UI 개선을 통해 사용자에게 더 직관적이고 깔끔한 서비스를 제공하고자합니다.
+현재 MZ세대는 다양한 패션 정보를 얻기 위해 SNS나 블로그 등 다양한 채널을 이용하고 있습니다. 
+그러나 이러한 정보들은 불필요한 정보들과 함께 제공되기 때문에 원하는 정보를 찾기 어렵다는 문제가 있었습니다. 
+이에 따라, 이번 프로젝트에서는 자신의 패션을 공유하며 사용자들이 패션에 대한 정보를 쉽게 얻을 수 있도록 하고, 
+또한 사용자들의 패션 아이템을 거래할 수 있는 서비스를 제공하고자 합니다. 
+이번 프로젝트에서는 패션 정보 수집에 대한 접근성을 높이고, 다양한 패션 정보를 쉽게 얻을 수 있는 환경을 제공하는 것을 목표로 합니다.
 
 
 
-<hr>
-<b>1. 개요</b>
- <h4> ◆ 기획의도</h4>
- 누구가 쉽게 관심을 가질 수 있는 패션이라는 주제로 
- OOTD 게시판에서는 회원들과 자유롭게 패션에 대해 이야기하고 의류 정보를 공유할 수 있으며,SHARE 게시판에서는 의류를 무상 또는 정가 보다 낮은 가격으로 회원들과 양도하여<Br>
- 패스트패션으로 인해 심화되는 환경오염을 방지하는데 기여할 수 있는 페이지를 만들고자 하였습니다.
- 
- <br><br>
- <h4> ◆ 구현 목표 </h4>
-1) OOTD게시판과 SHARE게시판 중심의 참여형 커뮤니티 웹 어플리케이션을 만들고자 하였습니다. <br>
-2) SHARE 게시판에서는 의류를 무상으로 회원들과 양도하여 패스트패션으로 인해 심화되는 환경오염을 방지하는데 기여할 수 있는 사이트를 만들고자 하였습니다. <br>
-3) 직관적이고 트렌디한 화면 구현을 목표로 하였습니다.
-
-<hr>
-<b>2. 사용기술 및 개발환경 </b>
-</br></br>
-
-- OS : window
-- IDE : Eclipse
-- Language : JAVA, JSP, HTML5, CSS3, JavaScript, jQuery
-- Middelware : TOMCAT
-- DBMS : Oracle
-- Service：Discord
+### ⚙️ 개발 환경 및 기술 스택
+<div>
+  <img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white">
+  <img src="https://img.shields.io/badge/jquery-0769AD?style=for-the-badge&logo=jquery&logoColor=white">
+  <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+  <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+  <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> 
+  <br>
+  <img src="https://img.shields.io/badge/oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white">
+  <img src="https://img.shields.io/badge/apache tomcat-F8DC75?style=for-the-badge&logo=apachetomcat&logoColor=white">
+  <br>
+  <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
+  <img src="https://img.shields.io/badge/notion-000000?style=for-the-badge&logo=notion&logoColor=white">
+  <img src="https://img.shields.io/badge/discord-5865F2?style=for-the-badge&logo=discord&logoColor=white">
+</div>
 
 
-
-<hr>
-<b> 3.주요기능</b> 
-</br></br>
+### 💡 주요 기능
+<p align="center">
+  <img src="https://github.com/jungeun819/hello-git/assets/112843609/29a3ffeb-ece1-42ee-8ffd-240e909e4143" width = '600px'>
+</p>
 
 - **회원**
-    - 회원가입, 로그인, 아이디 중복검사, 아이디저장, 로그아웃
-    
-- **OOTD게시판**
-    - 전체 게시물조회, 게시글 작성/수정/삭제, 카테고리 조회, 댓글작성/삭제, 프로필 조회, 좋아요, 신고
-    
-- **SHARE게시판**
-    - 전체 게시물조회, 게시글 작성/수정/삭제, 카테고리(필터), 프로필 조회, 좋아요(보관기능), 신고, 쪽지보내기
-    
-- **FAQ게시판**
-    - FAQ조회, 문의사항 작성/수정/삭제, 댓글작성/삭제
-    
-- **관리자페이지**
-    - 회원목록 조회, 회원권한변경, 신고내역조회, 신고 게시물 삭제처리
-    
-- **COLUMN게시판**
-    - 전체 게시물 조회, 게시글 작성/수정/삭제
-
-- **마이페이지**
-    - 개인정보조회/변경, 회원탈퇴, 내가 쓴 글 확인, 좋아요한 게시물 확인, 알림(신고, 쪽지), 쪽지함 확인
-
-
-
-<hr>
-<b> 4.설계</b>
- <h5> ◆ ER 다이어그램  </h5>
- <img src="https://user-images.githubusercontent.com/77500290/231704547-0f9a9ec4-f2d0-4537-adb3-69058814eb07.png" width="700"/>
-
-
-
-
-
-
-
+  - 로그인, 회원가입, 아이디 중복검사, 아이디 찾기, 비밀번호 찾기, 로그아웃, 회원탈퇴
+  - 쪽지 알림 및 신고처리 알림, 회원 정보 변경, 내 게시글 조회, 좋아요 및 관심물품 조회, 쪽지 조회 및 답장하기, 문의하기
+- **OOTD**
+  - 게시글 목록 조회, 상세페이지 조회, 게시글 등록 · 수정 · 삭제, 사진 등록, 카테고리 모아보기, 댓글 등록 · 삭제, 좋아요, 신고
+- **SHARE**
+  - 게시글 목록 조회, 상세페이지 조회, 게시글 등록 · 수정 · 삭제, 카테고리 · 성별 · 색상 · 스타일별 모아보기, 관심물품 등록, 쪽지 보내기, 신고 
+- **COLUMN**
+  - 게시글 목록 조회, 상세페이지 조회, 게시글 등록 · 수정 · 삭제, 사진 등록
+- **관리자**
+  - 회원 권한 변경, 회원 탈퇴 처리, 아이디 · 이름 · 성별 검색, 신고 내역 조회 및 처리, 문의 답변 
