@@ -1,4 +1,4 @@
-#  OBTG_old.ver
+#  OBTG_new.ver
 > 배포 : http://193.122.119.58:8080/OBTG/index.jsp
 > 
 > 기획 : 2022.12.28. ~ 2023.01.17.
