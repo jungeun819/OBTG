@@ -267,7 +267,14 @@ public class MemberDao {
 			pstmt.setString(6, member.getPhone());
 			pstmt.setDate(7, member.getBirthday());
 			pstmt.setString(8, member.getNickname());
-			pstmt.setString(9, member.getGender().name());
+			
+			// Gender 필드가 null인 경우 처리
+	        if (member.getGender() == null) {
+	            pstmt.setNull(9, Types.VARCHAR);
+	        } else {
+	            pstmt.setString(9, member.getGender().name());
+	        }
+			
 			pstmt.setString(10, member.getIntroduce());
 			pstmt.setString(11, member.getOriginal());
 			pstmt.setString(12, member.getRenamed());
